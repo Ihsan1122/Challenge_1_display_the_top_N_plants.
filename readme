@@ -5,12 +5,14 @@ Step by step explanation
 
 Step to Run Python Script:
 1- Create venv and install the required dependencies.
-2- run command python data_extract.py.
+2- Change DB connection string as per your's internal settings.
+3- run command python data_extract.py.
 
 
 Step to run power-plants-backend:
 1- npm i
-2- Run command docker-compose up --build using docker 
+2- Change DB connection string as per your's internal settings.
+3- Run command docker-compose up --build using docker 
 OR
 Run npm run build and then npm start
 
