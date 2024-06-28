@@ -11,7 +11,7 @@ Step to Run Python Script:
 
 Step to run power-plants-backend:
 1- npm i
-2- Change DB connection string as per your's internal settings.
+2- Change DB connection string as per your's internal settings inside .env file.
 3- Run command docker-compose up --build using docker 
 OR
 Run npm run build and then npm start
