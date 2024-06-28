@@ -1,0 +1,19 @@
+Step by step explanation
+1- data_extraction_script written on python with venv, used to fect data from xlxs file and storing into a postgre database.
+2- power-plants-backend written in nodejs using express and typescript, that encampasses Rest APIs to return back the Top n plants and by state plants with specific information returned as aresponse.
+
+
+Step to Run Python Script:
+1- Create venv and install the required dependencies.
+2- run command python data_extract.py.
+
+
+Step to run power-plants-backend:
+1- npm i
+2- Run command docker-compose up --build using docker 
+OR
+Run npm run build and then npm start
+
+API'S:
+1- http://localhost:3000/api/plants/AK
+2- http://localhost:3000/api/plants/top?limit=200
